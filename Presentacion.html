@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La Revolución Azul (1867-1868)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..700&family=Public+Sans:wght@400;600;700&display=swap">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:#0d0d0d;overflow:hidden}
+h1,h2,h3,p,ul,ol,hr{margin:0}
+hr{border:0}
+#stage{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform-origin:center center}
+.slide{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden;display:none !important}
+.slide.on{display:flex !important}
+aside{display:none}
+#hud{position:fixed;bottom:12px;left:50%;transform:translateX(-50%);color:#999;font:14px sans-serif;background:#000a;padding:6px 14px;border-radius:20px;opacity:.0;transition:opacity .3s}
+body:hover #hud{opacity:1}
+</style></head><body>
+<div id="stage">
+<section class="slide" id="cover" data-transition="fade" style="background:#14213D;color:#F6F3EC;font-family:'Public Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;gap:36px">
+<div style="position:absolute;left:1160px;top:0;width:760px;height:1080px"><div style="position:absolute;left:0;top:0px;width:760px;height:537px;overflow:hidden;background:#1B2A4A"><img src="00b_Portada_Caracas_grabado.jpg" alt="" style="position:absolute;left:0.6px;top:-58.7px;width:760.0px;height:654.5px;max-width:none"></div><div style="position:absolute;left:0;top:543px;width:760px;height:537px;overflow:hidden;background:#1B2A4A"><img src="00_Portada_Capitania_General_Venezuela_1777.jpg" alt="" style="position:absolute;left:-0.0px;top:-212.8px;width:760.0px;height:1020.3px;max-width:none"></div></div>
+<svg aria-label="Borde de papel rasgado" viewBox="0 0 120 1080" style="position:absolute;left:1120px;top:0;width:120px;height:1080px"><path fill="#C9D6EC" d="M0 0 L114 0 L80 45 L102 90 L88 135 L110 180 L74 225 L98 270 L112 315 L82 360 L104 405 L90 450 L116 495 L78 540 L100 585 L86 630 L108 675 L94 720 L76 765 L102 810 L88 855 L84 900 L100 945 L77 990 L106 1035 L92 1080 L0 1080 Z"/><path fill="#14213D" d="M0 0 L62 0 L78 45 L55 90 L84 135 L70 180 L92 225 L58 270 L80 315 L66 360 L88 405 L52 450 L76 495 L90 540 L60 585 L82 630 L68 675 L94 720 L56 765 L78 810 L64 855 L86 900 L72 945 L54 990 L80 1035 L66 1080 L0 1080 Z"/></svg>
+<div style="width:952px;display:flex;flex-direction:column;gap:24px">
+<p style="font-size:26px;font-weight:600;letter-spacing:4px;text-transform:uppercase;color:#8FB0E8">Historia Contemporánea de Venezuela</p>
+<h1 style="font-family:'EB Garamond', Georgia, serif;font-size:120px;font-weight:600;line-height:1.0;color:#F6F3EC">La Revolución Azul</h1>
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:48px;font-style:italic;line-height:1.2;color:#C9D6EC">Venezuela, diciembre de 1867 – junio de 1868</p>
+<hr style="width:240px;border-top:4px solid #C9A24A">
+<p style="font-size:28px;font-weight:600;color:#F6F3EC">Viernes 16 de octubre de 2026</p>
+<ul style="font-size:24px;line-height:1.4;color:#C9D6EC">
+<li>Aaron Valecillo</li>
+<li>Antonella Martins</li>
+<li>Belen Perez</li>
+<li>Isabel Morillo</li>
+<li>Jorge Rincón</li>
+<li>Kerin Nieves</li>
+<li>Santiago Romero</li>
+</ul>
+</div>
+<aside>Presentar el tema: la Revolución Azul, una insurrección que en pocos meses derrocó al gobierno de Juan Crisóstomo Falcón y abrió el llamado "gobierno de los azules".</aside>
+</section>
+
+<section class="slide" id="contexto" data-transition="fade" style="background:#F6F3EC;color:#14213D;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<div style="position:absolute;left:0px;top:0;width:760px;height:1080px"><div style="position:absolute;left:0;top:0px;width:760px;height:1080px;overflow:hidden;background:#1B2A4A"><img src="02_Juan_Crisostomo_Falcon.jpg" alt="" style="position:absolute;left:0.4px;top:0.2px;width:760.0px;height:1314.6px;max-width:none"></div></div>
+<svg aria-label="Borde de papel rasgado" viewBox="0 0 120 1080" style="position:absolute;left:680px;top:0;width:120px;height:1080px"><path fill="#FFFDF8" d="M120 0 L6 0 L40 45 L18 90 L32 135 L10 180 L46 225 L22 270 L8 315 L38 360 L16 405 L30 450 L4 495 L42 540 L20 585 L34 630 L12 675 L26 720 L44 765 L18 810 L32 855 L36 900 L20 945 L43 990 L14 1035 L28 1080 L120 1080 Z"/><path fill="#F6F3EC" d="M120 0 L58 0 L42 45 L65 90 L36 135 L50 180 L28 225 L62 270 L40 315 L54 360 L32 405 L68 450 L44 495 L30 540 L60 585 L38 630 L52 675 L26 720 L64 765 L42 810 L56 855 L34 900 L48 945 L66 990 L40 1035 L54 1080 L120 1080 Z"/></svg>
+<div style="width:952px;align-self:flex-end;display:flex;flex-direction:column;gap:40px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#2F5DA8">01 · Contexto previo</p>
+<h2 style="font-family:'EB Garamond', Georgia, serif;font-size:64px;font-weight:600;line-height:1.1">Un descontento de años</h2>
+</div>
+<div style="display:flex;flex-direction:column">
+<div style="display:flex;gap:32px;align-items:center;border-top:2px solid #D8D2C2;padding:20px 0">
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:52px;font-weight:600;color:#2F5DA8;width:200px">1863</p>
+<p style="flex:1;font-size:28px;line-height:1.4;color:#4A5568"><b>Fin de la Guerra Federal.</b> Triunfan los federales y Juan Crisóstomo Falcón llega a la presidencia.</p>
+</div>
+<div style="display:flex;gap:32px;align-items:center;border-top:2px solid #D8D2C2;padding:20px 0">
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:52px;font-weight:600;color:#2F5DA8;width:200px">1864</p>
+<p style="flex:1;font-size:28px;line-height:1.4;color:#4A5568"><b>La disidencia toma las armas.</b> Aparecen los primeros alzamientos contra el gobierno.</p>
+</div>
+<div style="display:flex;gap:32px;align-items:center;border-top:2px solid #D8D2C2;padding:20px 0">
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:52px;font-weight:600;color:#2F5DA8;width:200px">1864–67</p>
+<p style="flex:1;font-size:28px;line-height:1.4;color:#4A5568"><b>Tres años de preparación.</b> La oposición acumula experiencia militar y política en casi todo el país.</p>
+</div>
+</div>
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:34px;line-height:1.3;font-style:italic;color:#14213D">No surgió de golpe en 1867: fue la culminación de un descontento acumulado.</p>
+</div>
+<p style="position:absolute;left:840px;bottom:64px;width:952px;font-size:24px;color:#6A7179">La Revolución Azul · 2</p>
+<aside>Recalcar que la Revolución Azul no fue espontánea. Desde 1864 ya había disidencia armada, y en esos tres años se fue formando la experiencia que luego se usaría en 1867.</aside>
+</section>
+
+<section class="slide" id="que-fue" data-transition="fade" style="background:#F6F3EC;color:#14213D;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<div style="position:absolute;left:1160px;top:0;width:760px;height:1080px"><div style="position:absolute;left:0;top:0px;width:760px;height:1080px;overflow:hidden;background:#1B2A4A"><img src="03_Manuel_Ezequiel_Bruzual.jpg" alt="" style="position:absolute;left:0.3px;top:-0.1px;width:760.0px;height:1252.9px;max-width:none"></div></div>
+<svg aria-label="Borde de papel rasgado" viewBox="0 0 120 1080" style="position:absolute;left:1120px;top:0;width:120px;height:1080px"><path fill="#FFFDF8" d="M0 0 L114 0 L80 45 L102 90 L88 135 L110 180 L74 225 L98 270 L112 315 L82 360 L104 405 L90 450 L116 495 L78 540 L100 585 L86 630 L108 675 L94 720 L76 765 L102 810 L88 855 L84 900 L100 945 L77 990 L106 1035 L92 1080 L0 1080 Z"/><path fill="#F6F3EC" d="M0 0 L62 0 L78 45 L55 90 L84 135 L70 180 L92 225 L58 270 L80 315 L66 360 L88 405 L52 450 L76 495 L90 540 L60 585 L82 630 L68 675 L94 720 L56 765 L78 810 L64 855 L86 900 L72 945 L54 990 L80 1035 L66 1080 L0 1080 Z"/></svg>
+<div style="width:952px;display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#2F5DA8">02 · Qué fue</p>
+<h2 style="font-family:'EB Garamond', Georgia, serif;font-size:64px;font-weight:600;line-height:1.1">Una insurrección armada</h2>
+</div>
+<p style="font-size:30px;line-height:1.45;color:#2D3748">Diversos sectores políticos y regionales, más o menos coordinados, derrocaron a Juan Crisóstomo Falcón y a su sucesor interino, Manuel Ezequiel Bruzual.</p>
+<div style="display:flex;gap:16px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;background:#FFFDF8;padding:24px;border-top:6px solid #2F5DA8;border-radius:8px">
+<p style="font-size:24px;font-weight:700;color:#2F5DA8">Duración</p>
+<p style="font-size:28px;line-height:1.3;font-weight:600">Dic. 1867 – jun. 1868</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;background:#FFFDF8;padding:24px;border-top:6px solid #2F5DA8;border-radius:8px">
+<p style="font-size:24px;font-weight:700;color:#2F5DA8">Derrocados</p>
+<p style="font-size:28px;line-height:1.3;font-weight:600">Falcón y Bruzual</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;background:#FFFDF8;padding:24px;border-top:6px solid #2F5DA8;border-radius:8px">
+<p style="font-size:24px;font-weight:700;color:#2F5DA8">Distintivo</p>
+<p style="font-size:28px;line-height:1.3;font-weight:600">Bandera azul</p>
+</div>
+</div>
+<div style="background:#14213D;padding:32px;border-radius:8px;display:flex;flex-direction:column;gap:10px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#C9A24A">El dato curioso</p>
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:40px;line-height:1.2;color:#F6F3EC">Liberales rebelándose contra un presidente liberal.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:952px;font-size:24px;color:#6A7179">La Revolución Azul · 3</p>
+<aside>Definir el movimiento. Se enmarca en las guerras civiles venezolanas del siglo XIX. Resaltar la paradoja: los alzados eran en buena parte liberales, igual que Falcón, y terminaron aliándose con los conservadores.</aside>
+</section>
+
+<section class="slide" id="causas" data-transition="fade" style="background:#EAE5D8;color:#14213D;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#2F5DA8">03 · Causas</p>
+<h2 style="font-family:'EB Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.1">Un conflicto político entre liberales</h2>
+</div>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#FFFDF8;padding:40px;border-radius:8px">
+<h3 style="font-size:32px;font-weight:700">Argumentos cambiantes</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5568">De resentimientos personales pasaron a impugnar el mandato de Falcón y, al final, a “salvar la revolución”.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#FFFDF8;padding:40px;border-radius:8px">
+<h3 style="font-size:32px;font-weight:700">Una alianza inesperada</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5568">La represión agrupó a liberales descontentos, que se entendieron con los conservadores para formar la oposición.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#FFFDF8;padding:40px;border-radius:8px">
+<h3 style="font-size:32px;font-weight:700">El rumor de reelección</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5568">Se dijo, sin fundamento aparente, que se preparaba una reforma para darle a Falcón otro mandato. Él siempre lo negó.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A7179">La Revolución Azul · 4</p>
+<aside>Aclarar que las fuentes no destacan una crisis económica como causa principal; lo documentado es el conflicto político. El rumor de reelección pesó aunque no tenía base clara.</aside>
+</section>
+
+<section class="slide" id="detonante" data-transition="fade" style="background:#2F5DA8;color:#F6F3EC;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:28px">
+<div style="position:absolute;left:0px;top:0;width:760px;height:1080px"><div style="position:absolute;left:0;top:0px;width:760px;height:1080px;overflow:hidden;background:#1B2A4A"><img src="05_Vista_Villa_de_Cura_Plaza_Miranda.jpg" alt="" style="position:absolute;left:-523.0px;top:-186.1px;width:1805.9px;height:1489.0px;max-width:none"></div></div>
+<svg aria-label="Borde de papel rasgado" viewBox="0 0 120 1080" style="position:absolute;left:680px;top:0;width:120px;height:1080px"><path fill="#E3EBF8" d="M120 0 L6 0 L40 45 L18 90 L32 135 L10 180 L46 225 L22 270 L8 315 L38 360 L16 405 L30 450 L4 495 L42 540 L20 585 L34 630 L12 675 L26 720 L44 765 L18 810 L32 855 L36 900 L20 945 L43 990 L14 1035 L28 1080 L120 1080 Z"/><path fill="#2F5DA8" d="M120 0 L58 0 L42 45 L65 90 L36 135 L50 180 L28 225 L62 270 L40 315 L54 360 L32 405 L68 450 L44 495 L30 540 L60 585 L38 630 L52 675 L26 720 L64 765 L42 810 L56 855 L34 900 L48 945 L66 990 L40 1035 L54 1080 L120 1080 Z"/></svg>
+<div style="width:952px;align-self:flex-end;display:flex;flex-direction:column;gap:28px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#E3EBF8">04 · El detonante</p>
+<h1 style="font-family:'EB Garamond', Georgia, serif;font-size:96px;font-weight:600;line-height:1.05;color:#FFFDF8">12 de diciembre de 1867</h1>
+<p style="font-size:30px;line-height:1.45;color:#F1F4FA">En Villa de Cura estalla el movimiento “Reconquistador”, con el general <b>Miguel Antonio Rojas</b> como jefe. Su bandera azul le dio nombre a la revolución.</p>
+<div style="display:flex;gap:20px">
+<div style="flex:1;background:#14213D;padding:28px;border-radius:8px;display:flex;flex-direction:column;gap:8px">
+<p style="font-size:24px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#C9A24A">Sept. 1867</p>
+<p style="font-size:26px;line-height:1.4;color:#F6F3EC">Liberales y conservadores forman en Caracas un comité para derrocar al gobierno.</p>
+</div>
+<div style="flex:1;background:#14213D;padding:28px;border-radius:8px;display:flex;flex-direction:column;gap:8px">
+<p style="font-size:24px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#C9A24A">Mismo día</p>
+<p style="font-size:26px;line-height:1.4;color:#F6F3EC">También se alza en Carabobo el general Gonzalo Cárdenas.</p>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:840px;bottom:64px;width:952px;font-size:24px;color:#E3EBF8">La Revolución Azul · 5</p>
+<aside>Este es el arranque formal. Primero se organiza el comité en Caracas (septiembre) y luego, el 12 de diciembre, los alzamientos simultáneos de Rojas en Villa de Cura y Cárdenas en Carabobo. Explicar el origen del nombre: la bandera azul.</aside>
+</section>
+
+<section class="slide" id="expansion" data-transition="fade" style="background:#F6F3EC;color:#14213D;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:28px">
+<div style="position:absolute;left:1160px;top:0;width:760px;height:1080px"><div style="position:absolute;left:0;top:0px;width:760px;height:1080px;overflow:hidden;background:#1B2A4A"><img src="06_Jose_Tadeo_Monagas.jpg" alt="" style="position:absolute;left:-324.0px;top:-265.3px;width:1482.1px;height:1890.5px;max-width:none"></div></div>
+<svg aria-label="Borde de papel rasgado" viewBox="0 0 120 1080" style="position:absolute;left:1120px;top:0;width:120px;height:1080px"><path fill="#FFFDF8" d="M0 0 L114 0 L80 45 L102 90 L88 135 L110 180 L74 225 L98 270 L112 315 L82 360 L104 405 L90 450 L116 495 L78 540 L100 585 L86 630 L108 675 L94 720 L76 765 L102 810 L88 855 L84 900 L100 945 L77 990 L106 1035 L92 1080 L0 1080 Z"/><path fill="#F6F3EC" d="M0 0 L62 0 L78 45 L55 90 L84 135 L70 180 L92 225 L58 270 L80 315 L66 360 L88 405 L52 450 L76 495 L90 540 L60 585 L82 630 L68 675 L94 720 L56 765 L78 810 L64 855 L86 900 L72 945 L54 990 L80 1035 L66 1080 L0 1080 Z"/></svg>
+<div style="width:952px;display:flex;flex-direction:column;gap:28px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#2F5DA8">05 · Expansión del conflicto</p>
+<h2 style="font-family:'EB Garamond', Georgia, serif;font-size:64px;font-weight:600;line-height:1.1">Una revolución, dos jefes</h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;background:#FFFDF8;padding:28px 32px;border-left:8px solid #2F5DA8;border-radius:8px">
+<p style="font-size:24px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#2F5DA8">Centro</p>
+<h3 style="font-family:'EB Garamond', Georgia, serif;font-size:44px;font-weight:600">Miguel Antonio Rojas</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">Líder del alzamiento inicial. La lucha se intensifica en los valles del Tuy a comienzos de 1868.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;background:#FFFDF8;padding:28px 32px;border-left:8px solid #C9A24A;border-radius:8px">
+<p style="font-size:24px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#8A6A1F">Oriente</p>
+<h3 style="font-family:'EB Garamond', Georgia, serif;font-size:44px;font-weight:600">José Tadeo Monagas</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">Con más de 80 años, apoya los alzamientos de Barcelona y Cumaná y publica un manifiesto el 25 de marzo.</p>
+</div>
+<div style="background:#14213D;padding:24px 32px;border-radius:8px">
+<p style="font-size:26px;line-height:1.4;color:#F6F3EC"><b style="color:#C9A24A">Finales de abril:</b> Falcón se retira y Manuel Ezequiel Bruzual queda como presidente encargado.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:952px;font-size:24px;color:#6A7179">La Revolución Azul · 6</p>
+<aside>Explicar que el conflicto se extendió y quedó con dos cabezas: Rojas en el centro y Monagas en oriente. Usar "finales de abril" para la salida de Falcón, porque las fuentes difieren en el día exacto.</aside>
+</section>
+
+<section class="slide" id="desenlace" data-transition="fade" style="background:#EAE5D8;color:#14213D;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<div style="position:absolute;left:0px;top:0;width:760px;height:1080px"><div style="position:absolute;left:0;top:0px;width:760px;height:470px;overflow:hidden;background:#1B2A4A"><img src="07b_Caracas_1868.png" alt="" style="position:absolute;left:0.6px;top:-69.7px;width:760.0px;height:609.5px;max-width:none"></div><div style="position:absolute;left:0;top:476px;width:760px;height:604px;overflow:hidden;background:#1B2A4A"><img src="07_Guillermo_Tell_Villegas.jpg" alt="" style="position:absolute;left:-0.0px;top:-3.0px;width:760.0px;height:882.2px;max-width:none"></div></div>
+<svg aria-label="Borde de papel rasgado" viewBox="0 0 120 1080" style="position:absolute;left:680px;top:0;width:120px;height:1080px"><path fill="#FFFDF8" d="M120 0 L6 0 L40 45 L18 90 L32 135 L10 180 L46 225 L22 270 L8 315 L38 360 L16 405 L30 450 L4 495 L42 540 L20 585 L34 630 L12 675 L26 720 L44 765 L18 810 L32 855 L36 900 L20 945 L43 990 L14 1035 L28 1080 L120 1080 Z"/><path fill="#EAE5D8" d="M120 0 L58 0 L42 45 L65 90 L36 135 L50 180 L28 225 L62 270 L40 315 L54 360 L32 405 L68 450 L44 495 L30 540 L60 585 L38 630 L52 675 L26 720 L64 765 L42 810 L56 855 L34 900 L48 945 L66 990 L40 1035 L54 1080 L120 1080 Z"/></svg>
+<div style="width:952px;align-self:flex-end;display:flex;flex-direction:column;gap:36px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#2F5DA8">06 · Desenlace</p>
+<h2 style="font-family:'EB Garamond', Georgia, serif;font-size:64px;font-weight:600;line-height:1.1">De Antímano a Caracas</h2>
+</div>
+<div style="display:flex;flex-direction:column">
+<div style="display:flex;gap:28px;align-items:center;border-top:2px solid #CFC8B6;padding:20px 0">
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:40px;font-weight:600;color:#2F5DA8;width:230px;line-height:1.1">11 de mayo</p>
+<p style="flex:1;font-size:26px;line-height:1.4;color:#4A5568"><b>Tratado de Antímano.</b> Rojas reconoce al gobierno y se une a él; los orientales lo rechazan.</p>
+</div>
+<div style="display:flex;gap:28px;align-items:center;border-top:2px solid #CFC8B6;padding:20px 0">
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:40px;font-weight:600;color:#2F5DA8;width:230px;line-height:1.1">26 de junio</p>
+<p style="flex:1;font-size:26px;line-height:1.4;color:#4A5568"><b>Monagas entra a Caracas</b> tras fracasar las negociaciones con Bruzual.</p>
+</div>
+<div style="display:flex;gap:28px;align-items:center;border-top:2px solid #CFC8B6;padding:20px 0">
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:40px;font-weight:600;color:#2F5DA8;width:230px;line-height:1.1">28 de junio</p>
+<p style="flex:1;font-size:26px;line-height:1.4;color:#4A5568"><b>Gobierno provisional</b> presidido por Guillermo Tell Villegas; Monagas, al mando del ejército.</p>
+</div>
+<div style="display:flex;gap:28px;align-items:center;border-top:2px solid #CFC8B6;padding:20px 0">
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:40px;font-weight:600;color:#8A6A1F;width:230px;line-height:1.1">Agosto 1868</p>
+<p style="flex:1;font-size:26px;line-height:1.4;color:#4A5568"><b>Final de Bruzual.</b> Huye a Puerto Cabello, es derrotado y muere en Curazao.</p>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:840px;bottom:64px;width:952px;font-size:24px;color:#6A7179">La Revolución Azul · 7</p>
+<aside>Corregir la idea común de que Falcón renunció y Monagas asumió directamente: hubo varias etapas. Para la muerte de Bruzual, decir "agosto" o "mediados de agosto", porque el día exacto varía entre fuentes.</aside>
+</section>
+
+<section class="slide" id="consecuencias" data-transition="fade" style="background:#F6F3EC;color:#14213D;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<div style="position:absolute;left:1160px;top:0;width:760px;height:1080px"><div style="position:absolute;left:0;top:0px;width:760px;height:1080px;overflow:hidden;background:#1B2A4A"><img src="08_Antonio_Guzman_Blanco.jpg" alt="" style="position:absolute;left:-87.7px;top:-0.8px;width:935.4px;height:1169.2px;max-width:none"></div></div>
+<svg aria-label="Borde de papel rasgado" viewBox="0 0 120 1080" style="position:absolute;left:1120px;top:0;width:120px;height:1080px"><path fill="#FFFDF8" d="M0 0 L114 0 L80 45 L102 90 L88 135 L110 180 L74 225 L98 270 L112 315 L82 360 L104 405 L90 450 L116 495 L78 540 L100 585 L86 630 L108 675 L94 720 L76 765 L102 810 L88 855 L84 900 L100 945 L77 990 L106 1035 L92 1080 L0 1080 Z"/><path fill="#F6F3EC" d="M0 0 L62 0 L78 45 L55 90 L84 135 L70 180 L92 225 L58 270 L80 315 L66 360 L88 405 L52 450 L76 495 L90 540 L60 585 L82 630 L68 675 L94 720 L56 765 L78 810 L64 855 L86 900 L72 945 L54 990 L80 1035 L66 1080 L0 1080 Z"/></svg>
+<div style="width:952px;display:flex;flex-direction:column;gap:32px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#2F5DA8">07 · Consecuencias</p>
+<h2 style="font-family:'EB Garamond', Georgia, serif;font-size:64px;font-weight:600;line-height:1.1">El gobierno de los azules</h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px">
+<div style="display:flex;gap:28px;align-items:center;background:#FFFDF8;padding:22px 28px;border-radius:8px">
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:48px;font-weight:600;color:#2F5DA8;width:130px">1868</p>
+<p style="flex:1;font-size:26px;line-height:1.4;color:#2D3748">José Tadeo Monagas llega a la presidencia y muere en el cargo ese mismo año.</p>
+</div>
+<div style="display:flex;gap:28px;align-items:center;background:#FFFDF8;padding:22px 28px;border-radius:8px">
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:48px;font-weight:600;color:#2F5DA8;width:130px">1869</p>
+<p style="flex:1;font-size:26px;line-height:1.4;color:#2D3748">Asume su hijo, José Ruperto Monagas.</p>
+</div>
+<div style="display:flex;gap:28px;align-items:center;background:#14213D;padding:22px 28px;border-radius:8px">
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:36px;font-weight:600;color:#C9A24A;width:130px;line-height:1.1">Abril</p>
+<p style="flex:1;font-size:26px;line-height:1.4;color:#F6F3EC">Antonio Guzmán Blanco lo derroca en la Revolución de Abril y comienza el Guzmanato.</p>
+</div>
+</div>
+<div style="border-left:6px solid #2F5DA8;padding:4px 0 4px 28px;display:flex;flex-direction:column;gap:10px">
+<p style="font-size:24px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#2F5DA8">Testimonio de la época</p>
+<p style="font-family:'EB Garamond', Georgia, serif;font-size:30px;line-height:1.35;color:#2D3748">Un diplomático estadounidense en Caracas advirtió el temor de que los allegados orientales de Monagas acapararan los cargos más importantes, dejando de lado a otras regiones.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:952px;font-size:24px;color:#6A7179">La Revolución Azul · 8</p>
+<aside>Cerrar el ciclo: la Revolución Azul fue un gobierno breve que terminó abriendo paso a Guzmán Blanco. El testimonio del diplomático viene de los despachos de Foreign Relations of the United States (1868), una fuente primaria.</aside>
+</section>
+
+<section class="slide" id="fuentes" data-transition="fade" style="background:#14213D;color:#F6F3EC;font-family:'Public Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:#8FB0E8">Referencias</p>
+<h2 style="font-family:'EB Garamond', Georgia, serif;font-size:72px;font-weight:600;line-height:1.1;color:#F6F3EC">Fuentes consultadas</h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:28px">
+<p style="font-size:28px;line-height:1.45;color:#C9D6EC"><b>Rodríguez Campos, M.</b> “Revolución Azul”. <i>Diccionario de Historia de Venezuela</i>. Fundación Empresas Polar.</p>
+<p style="font-size:28px;line-height:1.45;color:#C9D6EC"><b>Mendoza, A. (2016).</b> “La Revolución Azul: última escena política de José Tadeo Monagas (1867-1868)”. <i>Tiempo y Espacio</i>, 26(66), 23-44.</p>
+<p style="font-size:28px;line-height:1.45;color:#C9D6EC"><b>U.S. Department of State (1868).</b> Despachos del ministro de EE.UU. en Caracas. <i>Foreign Relations of the United States</i>.</p>
+<p style="font-size:28px;line-height:1.45;color:#C9D6EC"><b>Wikipedia.</b> “Gobierno de los Azules” y “Manuel Ezequiel Bruzual” (fuentes de apoyo).</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#8FB0E8">La Revolución Azul · 9</p>
+<aside>Enlaces: bibliofep.fundacionempresaspolar.org/dhv/entradas/r/revolucion-azul/ · ve.scielo.org/pdf/te/v26n66/art02.pdf · history.state.gov/historicaldocuments/frus1868p2/d569 y d596. Cerrar con preguntas del público.</aside>
+</section>
+
+</div>
+<div id="hud"><span id="n"></span> · ← → para avanzar · F pantalla completa</div>
+<script>
+var s=[].slice.call(document.querySelectorAll('.slide')),i=0,st=document.getElementById('stage');
+function fit(){var k=Math.min(innerWidth/1920,innerHeight/1080);st.style.transform='translate(-50%,-50%) scale('+k+')'}
+function show(n){i=Math.max(0,Math.min(s.length-1,n));s.forEach(function(e,j){e.classList.toggle('on',j===i)});document.getElementById('n').textContent=(i+1)+' / '+s.length;try{location.hash=i+1}catch(e){}}
+addEventListener('resize',fit);
+addEventListener('keydown',function(e){if(['ArrowRight','PageDown',' ','Enter'].indexOf(e.key)>-1)show(i+1);else if(['ArrowLeft','PageUp','Backspace'].indexOf(e.key)>-1)show(i-1);else if(e.key==='Home')show(0);else if(e.key==='End')show(s.length-1);else if(e.key==='f'||e.key==='F'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen()}});
+addEventListener('click',function(e){show(e.clientX>innerWidth/2?i+1:i-1)});
+fit();show((parseInt(location.hash.slice(1))||1)-1);
+</script></body></html>
